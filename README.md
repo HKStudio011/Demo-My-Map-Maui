@@ -1,7 +1,7 @@
 # Demo-My-Map-Maui
-
+# Android
 **Get a Google Maps API key**
-To use the [Map](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.maps.map) control on Android you must generate an API key, which will be consumed by the Google Maps SDK on which the Map control relies on Android. To do this, follow the instructions in Set up in the Google Cloud Console and Use API Keys on developers.google.com.
+To use the [Map](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.maps.map) control on Android you must generate an API key, which will be consumed by the [Google Maps SDK](https://developers.google.com/maps/documentation/android/) on which the [Map](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.maps.map) control relies on Android. To do this, follow the instructions in [Set up in the Google Cloud Console](https://developers.google.com/maps/documentation/android-sdk/cloud-setup) and [Use API Keys](https://developers.google.com/maps/documentation/android-sdk/get-api-key) on developers.google.com.
 
 Once you've obtained an API key it must be added within the <application> element of your Platforms/Android/AndroidManifest.xml file, by specifying it as the value of the com.google.android.geo.API_KEY metadata:
 
